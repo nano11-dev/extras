@@ -1,8 +1,0 @@
-﻿Windows Registry Editor Version 5.00
-
-[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\OEMInformation]
-"HelpCustomized"=dword:00000001
-"Manufacturer"="NanoWin"
-"SupportProvider"="NanoWin Support"
-"SupportAppURL"="nano11-support-help"
-"SupportURL"="https://discord.gg/tJ4J9taUU2"
