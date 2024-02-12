@@ -32,12 +32,12 @@ jobs:
       - name: ZIPs the contents
         uses: TheDoctor0/zip-release@0.7.1
         with:
-          filename: Post-Setup.zip
+          filename: Extras.zip
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
         with:
-          name: Post-Setup
-          path: Post-Setup.zip
+          name: Extras
+          path: Extras.zip
       - name: Create Relese
         uses: ncipollo/release-action@v1.10.0
         with:
