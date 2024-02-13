@@ -43,6 +43,6 @@ jobs:
         with:
           artifacts: "Post*"
           tag: "v${{ inputs.version }}"
-          name: "PostSetup-${{ inputs.version }}"
+          name: "Extras-${{ inputs.version }}"
           prerelease: "${{ inputs.nightly }}"
           bodyFile: "README.md"
